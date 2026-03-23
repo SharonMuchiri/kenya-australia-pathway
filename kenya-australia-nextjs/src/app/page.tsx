@@ -205,7 +205,7 @@ export default function KenyaAustraliaApp() {
                   type="text"
                   value={profile.fullName}
                   onChange={(e) => setProfile({ ...profile, fullName: e.target.value })}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -217,7 +217,7 @@ export default function KenyaAustraliaApp() {
                     type="email"
                     value={profile.email}
                     onChange={(e) => setProfile({ ...profile, email: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
                     placeholder="email@example.com"
                   />
                 </div>
@@ -227,7 +227,7 @@ export default function KenyaAustraliaApp() {
                     type="tel"
                     value={profile.phone}
                     onChange={(e) => setProfile({ ...profile, phone: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
                     placeholder="+254..."
                   />
                 </div>
@@ -239,7 +239,7 @@ export default function KenyaAustraliaApp() {
                   type="text"
                   value={profile.county}
                   onChange={(e) => setProfile({ ...profile, county: e.target.value })}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
                   placeholder="e.g., Nairobi, Mombasa, Kisumu"
                 />
               </div>
@@ -349,7 +349,7 @@ export default function KenyaAustraliaApp() {
                 <textarea
                   value={gsResponses.returnIncentives}
                   onChange={(e) => setGsResponses({ ...gsResponses, returnIncentives: e.target.value })}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all h-24 resize-none"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all h-24 resize-none"
                   placeholder="e.g., My family owns a business in Nairobi that I plan to help expand using my Australian qualification..."
                 />
                 <div className="text-xs text-slate-400 text-right">
@@ -370,7 +370,7 @@ export default function KenyaAustraliaApp() {
                   onChange={(e) =>
                     setGsResponses({ ...gsResponses, economicCircumstances: e.target.value })
                   }
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all h-24 resize-none"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all h-24 resize-none"
                   placeholder="e.g., My father is a civil servant and has been saving for my education. We also have rental income from..."
                 />
                 <div className="text-xs text-slate-400 text-right">
@@ -389,7 +389,7 @@ export default function KenyaAustraliaApp() {
                 <textarea
                   value={gsResponses.studyRationale}
                   onChange={(e) => setGsResponses({ ...gsResponses, studyRationale: e.target.value })}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all h-24 resize-none"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all h-24 resize-none"
                   placeholder="e.g., Australia has world-leading programs in IT with practical industry placements. The course at..."
                 />
                 <div className="text-xs text-slate-400 text-right">
@@ -408,7 +408,7 @@ export default function KenyaAustraliaApp() {
                 <textarea
                   value={gsResponses.careerGoals}
                   onChange={(e) => setGsResponses({ ...gsResponses, careerGoals: e.target.value })}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all h-24 resize-none"
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all h-24 resize-none"
                   placeholder="e.g., Kenya's tech sector is growing rapidly. With an Australian IT degree, I plan to work in fintech..."
                 />
                 <div className="text-xs text-slate-400 text-right">
@@ -470,7 +470,7 @@ export default function KenyaAustraliaApp() {
                   max="9"
                   value={languageScores.overall}
                   onChange={(e) => setLanguageScores({ ...languageScores, overall: e.target.value })}
-                  className="w-full px-4 py-4 rounded-xl border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all text-2xl font-bold text-center"
+                  className="w-full px-4 py-4 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all text-2xl font-bold text-center"
                   placeholder="e.g., 6.5"
                 />
               </div>
@@ -488,7 +488,7 @@ export default function KenyaAustraliaApp() {
                       max="9"
                       value={languageScores[skill]}
                       onChange={(e) => setLanguageScores({ ...languageScores, [skill]: e.target.value })}
-                      className="w-full px-3 py-2 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all text-center"
+                      className="w-full px-3 py-2 rounded-lg border border-slate-200 bg-white text-slate-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all text-center"
                       placeholder="0.0"
                     />
                   </div>
@@ -608,7 +608,7 @@ export default function KenyaAustraliaApp() {
                   type="number"
                   value={financials.fundsAvailable}
                   onChange={(e) => setFinancials({ ...financials, fundsAvailable: e.target.value })}
-                  className="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all text-xl"
+                  className="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all text-xl"
                   placeholder="0"
                 />
               </div>
@@ -682,7 +682,7 @@ export default function KenyaAustraliaApp() {
                   placeholder="Search universities..."
                   value={universityFilter.search}
                   onChange={(e) => setUniversityFilter({ ...universityFilter, search: e.target.value })}
-                  className="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
+                  className="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-900 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all"
                 />
               </div>
               <button
