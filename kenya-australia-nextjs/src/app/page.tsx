@@ -1088,7 +1088,7 @@ export default function KenyaAustraliaApp() {
       )}
 
       {/* Main Content */}
-      <div className="max-w-2xl mx-auto px-4 py-6">
+      <div className={`max-w-2xl mx-auto px-4 py-6 ${currentStep > 0 ? 'pb-32 md:pb-6' : ''}`}>
         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
           {renderStep()}
         </div>
